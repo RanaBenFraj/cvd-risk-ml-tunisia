@@ -1,0 +1,54 @@
+{
+  "target": "CVD Risk Level",
+  "risk_labels": {
+    "0": "LOW",
+    "1": "INTERMEDIARY",
+    "2": "HIGH"
+  },
+  "features": [
+    "Age",
+    "Weight (kg)",
+    "Height (cm)",
+    "BMI",
+    "Total Cholesterol (mg/dL)",
+    "HDL (mg/dL)",
+    "Fasting Blood Sugar (mg/dL)",
+    "Systolic BP",
+    "Diastolic BP",
+    "Sex",
+    "Smoking Status",
+    "Diabetes Status",
+    "Physical Activity Level",
+    "Family History of CVD"
+  ],
+  "continuous_numeric": [
+    "Age",
+    "Weight (kg)",
+    "Height (cm)",
+    "BMI",
+    "Total Cholesterol (mg/dL)",
+    "HDL (mg/dL)",
+    "Fasting Blood Sugar (mg/dL)",
+    "Systolic BP",
+    "Diastolic BP"
+  ],
+  "binary_ordinal": [
+    "Sex",
+    "Smoking Status",
+    "Diabetes Status",
+    "Physical Activity Level",
+    "Family History of CVD"
+  ],
+  "random_seed": 42,
+  "test_size": 0.2,
+  "n_train": 1223,
+  "n_test": 306,
+  "smote_method": "SMOTENC",
+  "smote_categorical_features": [
+    "Sex",
+    "Smoking Status",
+    "Diabetes Status",
+    "Physical Activity Level",
+    "Family History of CVD"
+  ]
+}
